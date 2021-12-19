@@ -1,0 +1,30 @@
+.about {
+  /* background-color: $blue_1; */
+  .mainHeader {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 3rem;
+    color: $black;
+  }
+  .about__content {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    .col-8 {
+      .mainContent {
+        width: 90%;
+        padding-top: 1rem;
+      }
+    }
+    .About__image {
+      img {
+        border-radius: 50%;
+        width: 12rem;
+        height: 12rem;
+        box-shadow: 0px 0px 10px 10px  rgb(204, 197, 197);
+        padding: .5rem;
+      }
+    }
+  }
+}
